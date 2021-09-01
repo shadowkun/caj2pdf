@@ -36,8 +36,14 @@ cc -Wall `pkg-config --cflags jbig2dec` -fPIC -shared -o libjbig2codec.so decode
 
 - Python 3.3+
 - [PyPDF2](https://github.com/mstamy2/PyPDF2)
+  - install PyPDF2
+
+```
+pip3 install PyPDF2
+```
+
 - [mutool](https://mupdf.com/index.html)
-- Install mupdf-tools on Mac OSXJULY 25, 2021MAC APP STORE
+  - Install mupdf-tools on Mac OSXJULY 25, 2021MAC APP STORE
 About the App
 
 App name: mupdf-tools
@@ -65,6 +71,7 @@ Done! You can now use mupdf-tools.
 ### 用法
 
 ```
+# 将./lib/libjbigdec.so 拷贝到 cajpdf 同级目录
 # 打印文件基本信息（文件类型、页面数、大纲项目数）
 caj2pdf show [input_file]
 
