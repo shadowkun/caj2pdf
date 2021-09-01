@@ -47,10 +47,14 @@ Install the App
 
 Press Command+Space and type Terminal and press enter/return key.
 Run in Terminal app:
+```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 2> /dev/null
+```
 and press enter/return key. If you are prompted to enter your Mac's user password, enter it (when you type it, you wont see it on your screen/terminal.app but it would accept the input; this is to ensure no one can see your password on your screen while you type it. So just type password and press enter, even if you dont see it on your screen). Then wait for the command to finish.
 Run:
+```
 brew install mupdf-tools
+```
 Done! You can now use mupdf-tools.
 
 除了Microsoft Windows：我们提供Microsoft Windows 32-bit/64-bit DLLs，HN 格式需要
